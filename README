@@ -1,0 +1,24 @@
+================================================
+Pol-IP 1.0 README
+------------------------------------------------
+Check RELASE-NOTES Para informacion relevante
+Check INSTALL Para instrucciones de instalacion
+------------------------------------------------
+
+DESCRIPCION
+-----------
+
+
+Pol-IP es un sistema completo que implementa mecanismos para control de trafico
+en un servidor linux dando servicios de NAT a un grupo de clientes.
+
+polipd es el daemon que configura el sistema y mantiene un servicio de
+estadisticas
+polipConfig es un wizard utilizado para crear el archivo de configuracion
+/etc/polip.conf
+polipc Es el cliente de Linux destinado para recibir las estadisticas
+xpolipc Es el cliente de linux bajo entrono grafico X
+
+Tambien se encuentran 2 clientes mas uno en VB5 y otro en Java que tiene la
+misma funcionalidad que Polipc.
+

@@ -1,0 +1,15 @@
+============================================================
+Instrucciones de Instalacion para Pol-IPd 1.0
+_____________________________________________________________
+
+IMPORTANTE: LEER REQUERIMIENTOS DE SISTEMA EN README
+
+Primero en /bin ya estan los binarios precompilados
+Y en /init.d-scripts los scripts para cargar el daemon.
+
+Para compilar siguir los siguientes pasos
+
+cd src
+make clean
+make
+make install

@@ -1,0 +1,17 @@
+==================================================
+REALEASE NOTES PARA Pol-IP 1.0
+--------------------------------------------------
+Este Archivo contiene informacion relevante 
+con respecto a Pol-IP 1.0.
+--------------------------------------------------
+
+polipd tiene el parametro -t que no esta documentado, este tiene la funcion de
+no soltar la terminal cuando se inicia el daemon
+
+polipconfig no realiza comprobacion de la entrada, lo cual permite crear
+configuraciones en blanco. En caso de algun error simpre es bueno revisar en
+forma manual el archivo de configuracion /etc/polip.conf
+Para compilar polipconfig se necesitan las librerias newt-devel-0.51.0-1
+
+polipc si puede producir segmentation fault si no el servidor no esta
+inicializado
